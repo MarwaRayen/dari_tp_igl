@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+	box-sizing: border-box;
+}
+body {
+
+	margin: 0;
+	padding : 0;
+	background-color : #FFFFFF;
+	font-family: 'Cabin', sans-serif;
+
+}
+
+nav {
+  display : flex;
+  align-items: Center;
+  justify-content: space-between;
+}
+
+
+
+.car-logo { 
+	display: flex; align-items: center; 
+} 
+.car-body { 
+
+	/* other styles for the car body */ 
+	transition: background-color 0.5s; 
+} 
+.car-body:hover { 
+	background-color: red; 
+} 
+.car-body { 
+
+	width: 150px; 
+	height: 40px; 
+	background-color: yellowgreen; 
+	border-radius: 10px; 
+} 
+.footer{ 
+	/* height: 300px;  */
+	background-image: url(./Images/footerBg.png);
+	color: #ffffff;
+}
+.Footer_title {
+	padding: 2%;
+	font-weight: bold;
+	font-size: 110%;
+}
+.footer_text {
+	padding: 2%;
+	font-size: 90%;
+}
+.foot {
+	padding: 2%;
+	/* margin-left: 12%; */
+}
+div.inline { 
+	/*float:left;*/
+	display: inline;
+ }
+/* .h-full{
+	display : inline;
+} */
+
+.nav {
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+} 
+nav {
+	font-family: 'Bodoni Moda', serif;
+}
+#nav:hover {
+	color : #F4D303;
+}
+
+#nav {
+	padding: .5rem;
+}
+
+#cntr_sign {
+	background-image: url(./Images/BG_sign.png);
+	height: 100%;
+
+  	/* Center and scale the image nicely */
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  
+}
+
+#signbtn {
+
+	width: max-content;
+	border-radius: 9px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	color: black;
+	font-weight: bold;
+}
+
+.sign_info {
+
+	background-color: #1B1825;
+	padding: 5%; 
+	padding-top: 3%;
+	padding-bottom: 3%;
+	/* margin-left: 60%; */
+	border-radius: 51px;
+	/* width: fit-content; */
+	width: 90%;
+	/* width: 15rem; */
+	height: fit-content;
+
+}
+.tabs {
+	/* width: 35em;  */
+	width: 95%;
+	color: #FFFFFF;
+}
+
+.slogan {
+
+	width: fit-content;
+	padding: 10%;
+	margin-right: 25%;
+}
+
+.sign_title{
+
+	font-family: 'Bodoni Moda', serif;
+	color: #ffffff;
+	padding-bottom: 1em;
+	font-size: 135%;
+	
+}
+/* .footer_cntnr{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 50%;
+
+} */
+
+.intro {
+	display: flex;
+	flex-direction: center;
+	background-color: #1B1825;
+
+}
+
+.intro1 {
+	color: #FFFFFF;
+	padding: 2%;
+	font-family: 'Bodoni Moda', serif;
+
+}
+
+.intro_name{
+	width: fit-content;
+	
+}
+
+.home_btns {
+	display: flex;
+	flex-direction: center;
+	padding: 2%;
+	font-family: 'Cabin', sans-serif;
+}
+
+.titleH {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.about {
+	background-color: #1B1825;
+	display: flex;
+	color: #FFFFFF;
+	font-family: 'Bodoni Moda', serif;
+	padding: 1%;
+}
+
+.about1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 0;
+
+}
+.intro2 {
+	margin-right: 0;
+}
+
+.annonces {
+	background-color: #1B1825;
+	padding: 5%;
+}
+.msgbtn {
+	width: fit-content;
+}
